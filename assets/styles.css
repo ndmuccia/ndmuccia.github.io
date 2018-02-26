@@ -48,6 +48,9 @@ Break Points
 	.mobile-contact {
 		display: none;
 	}
+  .head1 { 
+    top:60px;
+  }
 }
 
 /*@media (min-width: 681px) { 
@@ -182,7 +185,6 @@ display:block;
    color: #000000; 
    color:;
    position: relative;
-   top: 60px;
    left: 40px;
    z-index: 1;
   }
