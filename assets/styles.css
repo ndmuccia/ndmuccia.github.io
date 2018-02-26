@@ -24,7 +24,7 @@ Break Points
 - - - - - - - - - - - -
 */
 
-@media (max-width: 880px) { 
+@media (max-width: 680px) { 
 	
 	.sidebar {
 		display: none;
@@ -44,7 +44,7 @@ Break Points
 	
  }
 
-@media (min-width: 881px) {
+@media (min-width: 681px) {
 	.mobile-contact {
 		display: none;
 	}
