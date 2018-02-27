@@ -41,6 +41,10 @@ Break Points
   .m2 {
     display: inline-block;
   }
+
+  .rando {
+    display: none;
+  }
 	
  }
 
@@ -48,8 +52,14 @@ Break Points
 	.mobile-contact {
 		display: none;
 	}
-  .head1 { 
+  .head1, .sidebar-head1 { 
     top:60px;
+  }
+  .subhead {
+    top: 60px;
+  }
+  .sub {
+     top: 60px;
   }
 }
 
@@ -159,7 +169,7 @@ element {
    position: absolute;
    top: 600px;
    width: 100px;
-   left: 700px;
+   right: 60px;
    z-index: 99;
    width: 50%;
 /*  opacity: 0;
@@ -169,12 +179,22 @@ element {
 .rando img {
   width: 40%;
   filter: blur(0px);
+  float: right;
 }
 
 .span {
 display:block;
 }
 
+.sidebar-head1 {
+   font-family: 'BAG', Helvetica, sans-serif; 
+   font-size: 40px;
+   text-decoration: underline;
+   letter-spacing: .5px; 
+   color: #000000; 
+   position: absolute;
+   z-index: 1;
+}
 
 .head1 { 
    font-family: 'BAG', Helvetica, sans-serif; 
@@ -216,7 +236,7 @@ display:block;
   
 .sidebar {
    position: absolute;
-   right: 60px;
+   right: 40px;
    top: 10px;
    width: 200px;
 }
@@ -229,7 +249,6 @@ display:block;
    letter-spacing: .5px; 
    color: #000000; 
    position: relative;
-   top: 60px;
    left: 40px;
    z-index: 1;
    padding-bottom:40px;
@@ -243,7 +262,6 @@ display:block;
    letter-spacing: .5px; 
    color: #0000EE; 
    position: relative;
-   top: 60px;
    left: 40px;
    z-index: 1;
    padding-bottom:40px;
@@ -267,13 +285,11 @@ display:block;
    font-family: 'BAG', Helvetica, sans-serif; 
    font-size: 15px;
    position: absolute;
-   right: -20px;
-   font-weight:;
    text-decoration: ;
    letter-spacing: .5px; 
    color: #0000EE; 
    z-index: 0;
-   padding-top: 5px;
+   padding-top: 25px;
    width: 200px;
   }
 

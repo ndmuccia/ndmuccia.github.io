@@ -14,12 +14,16 @@ var randomImage = document.getElementById('randomImage');
 if (item) {
     if(item.className=='hidden'){
         item.className = 'unhidden' ;
-        randomImage.classList.add("active");
-
-    }else{
+        if (divID !== 'hi') {
+        	randomImage.classList.add("active");
+        }
+    } else {
         item.className = 'hidden';
         clickedButton.value = ':)';
-        randomImage.classList.remove("active");    }
+        if (divID !== 'hi') {
+        	randomImage.classList.remove("active");    
+    	}
+    }
 }}
 </script>
 
@@ -110,20 +114,20 @@ if (item) {
     <!-- end random image script -->
 </div>
 <div class="sidebar">
-     <a class="head1" type="button" onclick="unhide(this, 'hi') " >Hi there +</a>
+     <a class="sidebar-head1" type="button" onclick="unhide(this, 'hi') " >Hi there +</a>
 
-<div id="hi" class="hidden">
-	<div class="name">
-		<ul style="padding-top: 10px">
-			<li><a class="name">Nina DeSalvio Muccia</a></li>
-			<li><a class="hi-there name" href="https://www.google.com/maps/@40.7032152,-73.9962931,2a,75y,311.55h,83.09t/data=!3m7!1e1!3m5!1sJi5kjMUQh5joUzb5KG5ayA!2e0!6s%2F%2Fgeo2.ggpht.com%2Fcbk%3Fpanoid%3DJi5kjMUQh5joUzb5KG5ayA%26output%3Dthumbnail%26cb_client%3Dmaps_sv.tactile.gps%26thumb%3D2%26w%3D203%26h%3D100%26yaw%3D313.78125%26pitch%3D-8.072917%26thumbfov%3D100!7i13312!8i6656" >NY, NY</a></li>
-			<li><a class="hi-there name" href="mailto:ndmuccia@gmail.com?subject= inquiry :)" >ndmuccia@gmail.com</a></li>
-			<li><a class="hi-there name" href="http://www.franklinwallace.com" >Code by Franklin Wallace</a></li>
-			<li><a class="hi-there name" href="https://www.are.na/nina-muccia/channels?sort=updated_at" >Are.na</a></li>
-		</ul>
-	<br> 
+	<div id="hi" class="hidden">
+		<div class="name">
+			<ul style="padding-top: 10px">
+				<li><a class="name">Nina DeSalvio Muccia</a></li>
+				<li><a class="hi-there name" href="https://www.google.com/maps/@40.7032152,-73.9962931,2a,75y,311.55h,83.09t/data=!3m7!1e1!3m5!1sJi5kjMUQh5joUzb5KG5ayA!2e0!6s%2F%2Fgeo2.ggpht.com%2Fcbk%3Fpanoid%3DJi5kjMUQh5joUzb5KG5ayA%26output%3Dthumbnail%26cb_client%3Dmaps_sv.tactile.gps%26thumb%3D2%26w%3D203%26h%3D100%26yaw%3D313.78125%26pitch%3D-8.072917%26thumbfov%3D100!7i13312!8i6656" >NY, NY</a></li>
+				<li><a class="hi-there name" href="mailto:ndmuccia@gmail.com?subject= inquiry :)" >ndmuccia@gmail.com</a></li>
+				<li><a class="hi-there name" href="http://www.franklinwallace.com" >Code by Franklin Wallace</a></li>
+				<li><a class="hi-there name" href="https://www.are.na/nina-muccia/channels?sort=updated_at" >Are.na</a></li>
+			</ul>
+			<br> 
+		</div>
 	</div>
-</div>
 </div>
 
 <div class="mobile-contact m2"> 
@@ -188,53 +192,35 @@ if (item) {
 <div class="top-padding-medium">
      <a class="head1" type="button" onclick="unhide(this, 'exh') ">Exhibitions +</a>
      <div id="exh" class="hidden">
-<ul class="top-padding-small">
-  <li><a href="" class="sub"> September 2017, <i>Mind the Gap</i> <br>Welcome to Junior High, Los Angeles</a></li>
-  <li><a href="" class="sub"> May 2017, <i>American Wholesale</i> <br> Solo show at Quolab, Savannah</a></li>
-  <li><a href="" class="sub"> January 2016, <i>Endless Editions Biennial</i> and publication<br>Robert Blackburn Studios, NYC</a></li>
-  <li><a href="" class="sub"> January 2015, <i>Halloween in January</i><br>Graveface Records, Savannah</a></li>
-  <li><a href="" class="sub"> Spring 2014&mdash;2016, Alexander Hall Open Studio, <br> Alexander Hall, Savannah</a></li>
-  <li><a href="" class="sub"> Winter 2014&mdash;2016, DeFine Art <br> Alexander Hall, Savannah</a></li>
-   <li><a href="" class="sub"> Summer/Fall 2014&mdash;2016, Alexander Ink<br> Alexander Hall, Savannah</a></li>
-   <li><a href="" class="sub"> September 2014, Nebraska National Collegiate Juried Art <br> University of Nebraska-Lincoln, Nebraska</a></li>
-  
-
-</ul> 
-<br>
-<br>
-
-<img class="top-padding" src="exhibitions/1.jpg" alt="IHOTW" height="auto" width="900px" />
-
- <br> 
-
-<img class="top-padding" src="exhibitions/2.jpg" alt="IHOTW" height="auto" width="900px" />
-
- <br> 
-
-<img class="top-padding" src="exhibitions/3.jpg" alt="IHOTW" height="auto" width="900px" />
-
- <br> 
-
-<img class="top-padding" src="exhibitions/4.jpg" alt="IHOTW" height="auto" width="900px" />
-
-<br>
-
-<img class="top-padding" src="exhibitions/5.jpg" alt="IHOTW" height="auto" width="900px" />
-
- <br> 
-
-<img class="top-padding" src="exhibitions/6.jpg" alt="IHOTW" height="auto" width="900px" />
-
- <br> 
-
-<img class="top-padding" src="exhibitions/7.jpg" alt="IHOTW" height="auto" width="900px" />
-
- <br> 
-
-<img class="top-padding" src="exhibitions/8.jpg" alt="IHOTW" height="auto" width="900px" />
-
+		<ul class="top-padding-small">
+  			<li><a href="" class="sub"> September 2017, <i>Mind the Gap</i> <br>Welcome to Junior High, Los Angeles</a></li>
+  			<li><a href="" class="sub"> May 2017, <i>American Wholesale</i> <br> Solo show at Quolab, Savannah</a></li>
+  			<li><a href="" class="sub"> January 2016, <i>Endless Editions Biennial</i> and publication<br>Robert Blackburn Studios, NYC</a></li>
+  			<li><a href="" class="sub"> January 2015, <i>Halloween in January</i><br>Graveface Records, Savannah</a></li>
+  			<li><a href="" class="sub"> Spring 2014&mdash;2016, Alexander Hall Open Studio, <br> Alexander Hall, Savannah</a></li>
+  			<li><a href="" class="sub"> Winter 2014&mdash;2016, DeFine Art <br> Alexander Hall, Savannah</a></li>
+   			<li><a href="" class="sub"> Summer/Fall 2014&mdash;2016, Alexander Ink<br> Alexander Hall, Savannah</a></li>
+   			<li><a href="" class="sub"> September 2014, Nebraska National Collegiate Juried Art <br> University of Nebraska-Lincoln, Nebraska</a></li>
+		</ul> 
+		<br>
+		<br>
+		<img class="top-padding" src="exhibitions/1.jpg" alt="IHOTW" height="auto" width="900px" />
+ 		<br> 
+		<img class="top-padding" src="exhibitions/2.jpg" alt="IHOTW" height="auto" width="900px" />
+		<br> 
+		<img class="top-padding" src="exhibitions/3.jpg" alt="IHOTW" height="auto" width="900px" />
+		<br> 
+		<img class="top-padding" src="exhibitions/4.jpg" alt="IHOTW" height="auto" width="900px" />
+		<br>
+		<img class="top-padding" src="exhibitions/5.jpg" alt="IHOTW" height="auto" width="900px" />
+		<br> 
+		<img class="top-padding" src="exhibitions/6.jpg" alt="IHOTW" height="auto" width="900px" />
+		<br> 
+		<img class="top-padding" src="exhibitions/7.jpg" alt="IHOTW" height="auto" width="900px" />
+		<br> 
+		<img class="top-padding" src="exhibitions/8.jpg" alt="IHOTW" height="auto" width="900px" />
     </div>
-  </div>
+</div>
   
 <!-- what the fuckkkk -->
 
