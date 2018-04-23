@@ -1,0 +1,79 @@
+    /* style.css */
+ 
+    body {
+      animation: colorchange 20s infinite; /* animation-name followed by duration in seconds*/
+         /* you could also use milliseconds (ms) or something like 2.5s */
+      -webkit-animation: colorchange 20s infinite; /* Chrome and Safari */
+    }
+
+    @keyframes colorchange
+    {
+      0%   {background: #C9EAF3;}
+      25%  {background: #FFCEFF;}
+      50%  {background: #CAFEB8;}
+      75%  {background: #e1f7d5;}
+      100% {background: #c9c9ff;}
+    }
+
+    @-webkit-keyframes colorchange /* Safari and Chrome - necessary duplicate */
+    {
+      0%   {background: #C9EAF3;}
+      25%  {background: #FFCEFF;}
+      50%  {background: #CAFEB8;}
+      75%  {background: #e1f7d5;}
+      100% {background: #c9c9ff;}
+    }
+
+    @font-face {
+    font-family: 'Sporting Grotesque_Regular';
+    src: url('fonts/Sporting_Grotesque-Regular_web.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    }
+    
+    h1 {
+    font-family: 'Sporting Grotesque_Regular'; 
+    color: black;
+    font-size: 40px;
+    padding-left: 20px;
+    }
+
+    /* unvisited link */
+a:link {
+    color: black;
+}
+
+/* visited link */
+a:visited {
+    color: hotpink;
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+}
+
+/* selected link */
+a:active {
+    color: hotpink;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+
+    
+
