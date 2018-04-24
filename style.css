@@ -1,9 +1,9 @@
     /* style.css */
  
     body {
-      animation: colorchange 20s infinite; /* animation-name followed by duration in seconds*/
+      animation: colorchange 15s infinite; /* animation-name followed by duration in seconds*/
          /* you could also use milliseconds (ms) or something like 2.5s */
-      -webkit-animation: colorchange 20s infinite; /* Chrome and Safari */
+      -webkit-animation: colorchange 15s infinite; /* Chrome and Safari */
     }
 
     @keyframes colorchange
@@ -36,6 +36,7 @@
     color: black;
     font-size: 40px;
     padding-left: 20px;
+    line-height: 1.6;
     }
 
     /* unvisited link */
