@@ -1,0 +1,70 @@
+    /* style.css */
+ 
+    body {
+
+    background-image: url('http://dl4.glitter-graphics.net/pub/1175/1175324v8vs8exzv3.gif');
+    background-attachment: fixed;
+    background-repeat: repeat;
+    }
+    </style>
+
+    @font-face {
+    font-family: 'Sporting Grotesque_Regular';
+    src: url('fonts/Sporting_Grotesque-Regular_web.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+    @font-face {
+    font-family: 'happy-times-at-the-ikob-webfont.woff';
+    src: url('fonts/happy-times-at-the-ikob-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    }
+    
+    h1 {
+    font-family: 'happy-times-at-the-ikob-webfont.woff'; 
+    color: black;
+    font-size: 40px;
+    padding-left: 20px;
+    }
+
+        /* unvisited link */
+a:link {
+    color: black;
+}
+
+/* visited link */
+a:visited {
+    color: #603C14;
+}
+
+/* mouse over link */
+a:hover {
+    color: #603C14;
+}
+
+/* selected link */
+a:active {
+    color: #603C14;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+
+    
+
