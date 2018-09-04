@@ -1,0 +1,56 @@
+    /* style.css */
+
+   @font-face {
+    font-family: 'happy-times-at-the-ikob-webfont.woff';
+    src: url('fonts/happy-times-at-the-ikob-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+    p {
+    font-family: 'courier new'; 
+    color: black;
+    font-size: 10px;
+    padding: 10px;
+    padding-top: 10px;
+    }
+
+
+a:link {
+color: black;
+}
+
+/* visited link */
+a:visited {
+    color: purple;
+}
+
+/* mouse over link */
+a:hover {
+    color: blue;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+
+    
+
