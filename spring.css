@@ -1,0 +1,103 @@
+  /* style.css */
+ 
+    body {
+    
+    }
+    </ninamuccia>
+
+    @font-face {
+    font-family: 'Sporting Grotesque_Regular';
+    src: url('fonts/Sporting_Grotesque-Regular_web.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+    @font-face {
+    font-family: 'happy-times-at-the-ikob-webfont.woff';
+    src: url('fonts/happy-times-at-the-ikob-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+    @font-face {
+    font-family: 'Basel-Book.woff';
+    src: url('fonts/Basel-Book.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+
+    body {background-color: #DEB887;}
+    
+    h1 {
+    font-family: 'Basel-Book.woff'; 
+    color:   #1E90FF;
+    font-size: 20px;
+    padding-left: 20px;
+    }
+
+    p {
+    font-family: 'Basel-Book.woff'; 
+    color:   #1E90FF;
+    font-size: 20px;
+    padding-left: 10px;
+    }
+
+    h2 {
+    font-family: 'Basel-Book.woff'; 
+    color:   #6EFF70; #00FFFF
+    font-size: 30px;
+    padding-left: 20px;
+    }
+
+
+    h3 {
+    font-family: 'Basel-Book.woff'; 
+    color:   #00FFFF; 
+    font-size: 30px;
+    padding-left: 20px;
+    }
+
+
+    IMG.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
+
+        /* unvisited link */
+a:link {
+    color: #1E90FF;
+}
+
+/* visited link */
+a:visited {
+    color: #yellow;
+}
+
+/* mouse over link */
+a:hover {
+    color: #yellow;
+}
+
+/* selected link */
+a:active {
+    color: #yellow;
+}
+
+a:link {
+    text-decoration: none;
+    color: #1E90FF;
+}
+
+a:visited {
+    text-decoration: underline;
+    color: #1E90FF;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
