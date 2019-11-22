@@ -1,7 +1,31 @@
   /* style.css */
  
     body {
-    
-   background-color: black;
+    	background-color: black;
+    }
+
+ 
+
+    @font-face {
+    font-family: 'Basel-Book.woff';
+    src: url('fonts/Basel-Book.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+    h1 {
+    font-family: 'Basel-Book.woff'; 
+    color: #ffffff;
+    font-size: 20px;
+    padding-left: 20px;
+    }
+
+p {
+    font-family: sans-serif; 
+    color: #ffffff;
+    font-size: 20px;
+    padding-left: 10px;
+
+    }
 
 }
