@@ -1,0 +1,150 @@
+  /* style.css */
+ 
+    body {
+    
+    }
+    </ninamuccia>
+
+    .serif {
+    font-family: "Times New Roman", Times, serif;
+    }
+
+    @font-face {
+    font-family: 'Sporting Grotesque_Regular';
+    src: url('fonts/Sporting_Grotesque-Regular_web.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+     @font-face {
+    font-family: 'Ogg-Light';
+    src: url('fonts/Ogg-Light.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+    @font-face {
+    font-family: 'happy-times-at-the-ikob-webfont.woff';
+    src: url('fonts/happy-times-at-the-ikob-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+    @font-face {
+    font-family: 'Basel-Book.woff';
+    src: url('fonts/Basel-Book.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+    @font-face {
+    font-family: 'TimesNewBastard-RegularWeb.woff2';
+    src: url('fonts/TimesNewBastard-RegularWeb.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+
+
+    body {background-color: #ffffff;}
+    
+    h1 {
+    font-family: 'Basel-Book.woff'; 
+    color:   #000000;
+    font-size: 20px;
+    text-align: center;
+    }
+
+    p new-font {
+    font-family: 'serif'; 
+    color:   #000000;
+    font-size: 20px;
+    text-align: center;
+
+    }
+
+    p  {
+    font-family: 'Basel-Book.woff'; 
+    color:   #FF0000;
+    font-size: 15px;
+    padding-left: 10px;
+    text-align: center;
+
+    }
+
+    h2 {
+    font-family: 'serif'; 
+    color:   #000000;
+    font-size: 20px;
+    text-align: center;
+   
+    }
+
+
+    body {
+    font-family: 'serif'; 
+    color:   #FF0000;
+    font-size: 15px;
+    line-height: .4;
+    text-align: center;
+    }
+
+
+    IMG.displayed {
+    display: block;
+    position: static;
+    padding-left: 350px;
+ 
+    }
+
+        /* unvisited link */
+a:link {
+    color: #FF0000;
+}
+
+/* visited link */
+a:visited {
+    color: #FF0000;
+}
+
+/* mouse over link */
+a:hover {
+    color: #FF0000;
+}
+
+/* selected link */
+a:active {
+    color: #FF0000;
+}
+
+a:link {
+    text-decoration: none;
+    color: #FF0000;
+}
+
+a:visited {
+    text-decoration: underline;
+    color: #FF0000;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+/* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+@media screen and (min-width: 601px) {
+  div.example {
+    font-size: 80px;
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+  div.example {
+    font-size: 30px;
+  }
+}
